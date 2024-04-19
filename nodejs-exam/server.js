@@ -8,8 +8,6 @@ const PORT = process.env.PORT || 4000;
 
  
 app.use(bodyParser.json());
- 
-app.use(bodyParser.json());
 
  
 mongoose.connect('mongodb://localhost:27017/todo', {
